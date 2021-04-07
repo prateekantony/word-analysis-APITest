@@ -1,0 +1,13 @@
+package com.restproject.service;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class APITestApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(APITestApplication.class, args);
+	}
+
+}
