@@ -36,8 +36,8 @@
     -  e.g. http://localhost:8080/api/link?url=file:///C:/path/to/txt/file.txt
 
 ### Note:
-**To test different .TXT files, a sample file dump location was created with 10 sample TXT files:** 
-**[https://prateekantony.github.io/test-file-dump/](https://prateekantony.github.io/test-file-dump/)**
+- **To test different .TXT files, a sample file dump location was created with 10 sample TXT files:** 
+- **[https://prateekantony.github.io/test-file-dump/](https://prateekantony.github.io/test-file-dump/)**
 
 ## Application Specification
 
