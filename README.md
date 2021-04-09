@@ -33,10 +33,11 @@
 - Alternatively, simply enter following URL to address bar: [http://localhost:8080/api/link?url=https://prateekantony.github.io/test-file-dump/files/sample1.txt](http://localhost:8080/api/link?url=https://prateekantony.github.io/test-file-dump/files/sample1.txt)
 - You can change the url value to any valid `.TXT` url 
 - To get file from local machine, enter path of file as the url value: 
-    -  e.g. http://localhost:8080/api/link?url=file:///C:/path/to/txt/file/sample8.txt
+    -  e.g. http://localhost:8080/api/link?url=file:///C:/path/to/txt/file.txt
 
 ### Note:
-**To test different .TXT files, a sample file dump location was created with 10 sample TXT files: [https://prateekantony.github.io/test-file-dump/](https://prateekantony.github.io/test-file-dump/)**
+**To test different .TXT files, a sample file dump location was created with 10 sample TXT files:** 
+**[https://prateekantony.github.io/test-file-dump/](https://prateekantony.github.io/test-file-dump/)**
 
 ## Application Specification
 
