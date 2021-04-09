@@ -4,10 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class APITestApplication {
-
+public class WordApplicationRunner
+{
 	public static void main(String[] args) {
-		SpringApplication.run(APITestApplication.class, args);
+		SpringApplication.run(WordApplicationRunner.class, args);
 	}
-
 }
