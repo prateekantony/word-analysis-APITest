@@ -2,6 +2,7 @@ package com.restproject.service.controller;
 
 import com.restproject.service.analyser.WordAnalyser;
 import com.restproject.service.model.URILink;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -19,7 +20,8 @@ public class WordController
     {
         if (linkPath.equals("500"))
         {
-            return "Error Occurred: Invalid URL";
+            return "add txt file link API query to end of URL. " +
+                    "Example: ?url=https://sete.com/path/to/file.txt";
         }
         else
         {

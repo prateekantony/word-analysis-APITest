@@ -24,7 +24,9 @@ class ControllerTest {
     {
         RequestBuilder req = MockMvcRequestBuilders.get("/api/link");
         MvcResult mvcr = mm.perform(req).andReturn();
-        assertEquals("Error Occurred: Invalid URL", mvcr.getResponse().getContentAsString());
+        String expected = "add txt file link API query to end of URL. " +
+                "Example: ?url=https://sete.com/path/to/file.txt";
+        assertEquals(expected, mvcr.getResponse().getContentAsString());
     }
 
     @Test

@@ -37,6 +37,21 @@
 - To get file from local machine, enter path of file as the url value:
     -  e.g. http://localhost:8080/api/link?url=file:///C:/path/to/txt/file.txt
 
+## Running Application from Heroku
+
+To quick and easy for testing, the application has been deployed to Heroku and is available in the below link:
+    
+    https://word-analysis-app.herokuapp.com/api/link
+
+- Insert the above link into Postman API
+- Add Query Params:
+  - Key: `url`
+  - Value: e.g. `https://prateekantony.github.io/test-file-dump/files/sample1.txt`
+
+**Example:**
+      
+      https://word-analysis-app.herokuapp.com/api/link?url=https://prateekantony.github.io/test-file-dump/files/sample1.txt
+
 ### Note:
 - **The browser may display the API without formatting on a signle line. Postman will display this line by line.**
 - **To test different .TXT files, a sample file dump location was created containing a selecting of test .TXT files:**
