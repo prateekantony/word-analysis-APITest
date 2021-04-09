@@ -23,7 +23,7 @@
 
 ## File Path to API
 
-- Once the Spring Boot application has start up, open to Postman API Client
+- Once the Spring Boot application has start up, open Postman API Client
 - Create a new collection
 - Create a new `GET` request
 - Insert following URL in address bar: [http://localhost:8080/api/link](http://localhost:8080/api/link)
@@ -31,7 +31,11 @@
     - Key: `url`
     - Value: e.g. `https://prateekantony.github.io/test-file-dump/files/sample1.txt`
 - Alternatively, simply enter following URL to address bar: [http://localhost:8080/api/link?url=https://prateekantony.github.io/test-file-dump/files/sample1.txt](http://localhost:8080/api/link?url=https://prateekantony.github.io/test-file-dump/files/sample1.txt)
+- You can change the url value to any valid `.TXT` url 
+- To get file from local machine, enter path of file as the url value: 
+    -  e.g. http://localhost:8080/api/link?url=**file:///C:/path/to/txt/file/sample8.txt**
 
+**To test different .TXT files, a sample file dump location was created with 10 sample TXT files: [https://prateekantony.github.io/test-file-dump/](https://prateekantony.github.io/test-file-dump/)**
 
 ## Application Specification
 
